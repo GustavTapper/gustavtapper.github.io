@@ -521,7 +521,7 @@ nav {
 	font-size: 11px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	color: var(--accent-color);
+	color: var(--text-black);
 	margin-bottom: 8px;
 	font-weight: 600;
 }
