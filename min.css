@@ -521,9 +521,10 @@ nav {
 	font-size: 11px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	color: var(--text-black);
+	color: #E9A000;
 	margin-bottom: 8px;
 	font-weight: 600;
+	background-color: #000;
 }
 
 .portfolio-title {
@@ -531,12 +532,14 @@ nav {
 	font-weight: 700;
 	margin-bottom: 8px;
 	color: #E9A000;
+	background-color: #000;
 }
 
 .portfolio-description {
 	font-size: 13px;
 	color: #E9A000;
 	line-height: 1.5;
+	background-color: #000;
 }
 
 /* Navigation Controls */
