@@ -195,10 +195,7 @@ nav {
 	right: 0;
 	bottom: 0;
 	opacity: 0.2;
-	background-image:
-		repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(243, 156, 18, 0.04) 35px, rgba(243, 156, 18, 0.04) 70px),
-		repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255, 255, 255, .04) 35px, rgba(255, 255, 255, .04) 70px),
-		repeating-linear-gradient(90deg, transparent, transparent 50px, rgba(243, 156, 18, 0.03) 50px, rgba(243, 156, 18, 0.03) 100px);
+	background-image: url("images/Header.jpg")
 }
 
 /* Animated geometric shapes for hero background */
