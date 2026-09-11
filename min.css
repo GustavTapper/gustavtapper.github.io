@@ -649,16 +649,21 @@ nav {
 	filter: grayscale(0%);
 }
 
+CSS
 .showcase-image {
 	position: relative;
 	overflow: hidden;
 	border-radius: 8px;
+	width: 100%; 
+	max-width: 600px;
+	flex: 1 1 50%;
 }
 
 .showcase-image img {
 	width: 100%;
 	height: auto;
 	display: block;
+	object-fit: cover;
 	transition: filter 0.5s ease;
 }
 
