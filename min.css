@@ -649,22 +649,22 @@ nav {
 	filter: grayscale(0%);
 }
 
+.left-column-wrapper {
+	flex: 1 1 50%;
+	max-width: 650px;
+}
+
 .showcase-image {
 	position: relative;
 	overflow: hidden;
-	border-radius: 12px;
-	background-color: #171717;
-	padding: 4rem 2rem; 
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	border-radius: 8px;
+	width: 100%;
 }
 
 .showcase-image img {
 	width: 100%;
 	height: auto;
 	display: block;
-	border-radius: 6px;
 	transition: filter 0.5s ease;
 }
 
