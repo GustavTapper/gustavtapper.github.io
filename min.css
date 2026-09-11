@@ -653,19 +653,17 @@ nav {
 	position: relative;
 	overflow: hidden;
 	border-radius: 8px;
-	
-	/* Pull the image up higher on the page */
-	margin-top: -80px; 
-	
-	/* Force a larger width regardless of parent column limits */
-	width: 130%; 
-	max-width: none; 
+	max-height: 70vh; 
+	width: 100%; 
+	align-self: flex-start; 
 }
 
 .showcase-image img {
 	width: 100%;
-	height: auto;
+	height: 100%;
 	display: block;
+	object-fit: cover; 
+	object-position: top center; 
 	transition: filter 0.5s ease;
 }
 
