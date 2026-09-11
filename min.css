@@ -660,7 +660,7 @@ nav {
 }
 
 .showcase-image img {
-	width: 250px
+	width: 100%
 	height: 250px;
 	transition: filter 0.5s ease;
 }
