@@ -665,6 +665,17 @@ nav {
 	transition: filter 0.5s ease;
 }
 
+.show-image {
+	overflow: hidden;
+	border-radius: 8px;
+}
+
+.show-image img {
+	width: 100%
+	height: 50px;
+	transition: filter 0.5s ease;
+}
+
 .about-content h2 {
 	font-size: clamp(2rem, 4vw, 2.5rem);
 	margin-bottom: 20px;
